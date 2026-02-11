@@ -59,3 +59,41 @@ margin-left: 100px;
     margin-left: 700px;
     margin-top: -230px;
 }
+.box1{
+    margin-top: 150px;
+}
+.box2{
+    margin-top: -400px;
+    margin-left: 780px;color: gray;
+}
+.box3{
+    font-size: 30px;
+    margin-left: 780px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.box4{
+    color: #ff5500;
+}
+.box5{
+    color: #ff5500;
+}
+.box6{
+    margin-left: 780px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.box7{
+    margin-left: 780px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.box8{
+    width: 170px;
+    height: 38px;
+    color: white;
+    background-color: #ff5500;
+    border: #ff5500;
+    margin-left: 780px;
+    margin-top: 40px;
+}
