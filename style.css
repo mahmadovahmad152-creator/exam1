@@ -516,3 +516,15 @@ color: #777;
 .btn:hover{
     background:#e14e00;
 }
+
+.btn1{
+
+width: 95%;
+margin-left: 45px;
+}
+.btn2{
+    display: flex;
+    gap: 100px;
+    margin-left: 190px;
+    margin-top: 70px;
+}
