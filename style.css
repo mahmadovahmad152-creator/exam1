@@ -475,10 +475,11 @@ color: #777;
 
 .row{
     margin-bottom:25px;
+    width: 400px;
 }
 
 .input-small{
-    width:380px;
+    width:350px;
     height:55px;
     padding-left:15px;
     border:none;
@@ -635,4 +636,262 @@ color: white;
 .w5{
     margin-left: 0px;
     margin-top: 20px;
+}
+.aq{
+    display: none;
+}
+
+@media(max-width:510px) {
+    .p{
+        display: none;
+    }
+    .dark{
+        margin-left: -80px;
+        margin-top: -10px;
+        width: 30px;
+        height: 30px;
+    }
+    .a1{
+        margin-left: 10px;
+    }
+    .aq{
+        display: block;
+        font-size: 40px;
+        margin-top: -15px;
+        margin-left: 20px;
+    }
+    .a3{
+        height: 600px;
+        padding-bottom: 40px;
+    }
+
+    .a4,
+    .a5,
+    .a6 {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .a8{
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+        font-size: 15px;
+    }
+
+    .body{
+        overflow-x: hidden;
+    }
+
+    .a9{
+        position: static;
+        display: block;
+        margin: 30px auto;
+    }
+
+    .box{
+        margin: 30px auto;
+        display: block;
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 90%;
+    }
+    .za{
+        margin-top: 180px;
+    }
+
+    .box6{
+        margin-bottom: 200px;
+    }
+
+    .box1{
+        margin-bottom: 250px;
+    }
+
+    .br{
+        display: none;
+    }
+
+    .box1{
+        width: 90%;
+        display: block;
+        margin: 40px auto;
+    }
+
+    .box2,
+    .box3,
+    .box6,
+    .box7 {
+        margin-left: 0;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .box3{
+        font-size: 24px;
+    }
+
+    .box6,
+    .box7{
+        font-size: 16px;
+    }
+
+    .box8{
+        display: block;
+        margin: 30px auto;
+    }
+    .row32{
+        display: flex;
+        flex-direction: column;
+        margin-top: 300px;
+        gap: 10px;
+    }
+    .item1{
+        margin-top: 300px;
+    }
+    .item5,
+    .item6 {
+        margin: 20px 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .item7 {
+        display: block;
+        margin: 20px auto;
+        width: 160px;
+    }
+
+    .main {
+        width: 100%;
+        margin: 40px 0;
+        grid-template-columns: 1fr; 
+        gap: 20px;
+        padding: 0 20px;
+        margin-left: -30px;
+    }
+
+    .item9 {
+        height: auto;
+        padding: 25px;
+    }
+
+    .item9 h2 {
+        font-size: 28px;
+    }
+
+    .item9 p {
+        font-size: 14px;
+    }
+    .zc{
+        margin-top: -280px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    .sim{
+        margin-left: 0px;
+    }
+    .cim{
+        display: none;
+    }
+    .cim1{
+        margin-left: 10px;
+    }
+    .cim8{
+        display: none;
+    }
+    .pol5{
+        margin-left: 20px;
+    }
+    .pol50{
+        display: none;
+    }
+    .pol51{
+        display: none;
+    }
+    .box21 {
+        width: 98%;
+        padding: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+
+    .input-small,
+    .input-big {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -15px;
+    }
+
+    .btn1{
+        margin-left: 10px;
+        height: 250px;
+    }
+    .btn2{
+        display: flex;
+        gap: 10px;
+        margin-left: -10px;
+    }
+    .btn2 img {
+        width: 12%;
+        margin-left: 0px;
+        margin-left: 40px;
+    }
+
+    .bnt7,
+    .q7,
+    .w11,
+    .w3 {
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .btn8, .f, .f1, .f2, .f3, .f4,
+    .q1, .q2, .q3, .q4, .q5, .q6,
+    .w1, .w2 {
+        margin-left: 0;
+    }
+
+    .bnt7 {
+        margin-bottom: 30px;
+        margin-top: -950px;
+    }
+
+    .w5 {
+        display: block;
+        margin: 15px auto;
+        width: 40px;
+    }
+
+    .w4 {
+        display: block;
+        margin: 20px auto;
+        width: 60%;
+    }
+
+    .btn3{
+        height: 1300px;
+    }
+.w3{
+    margin-left: 0px;
+    width: 80%;
+    margin: auto;
+}
 }
